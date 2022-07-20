@@ -1,20 +1,29 @@
 <header>
     <div class="navbar bg-secondary shadow-sm">
       <div class="navbar-brand align-item-centre d-flex">
-        <strong style="font-size: 30px; color:orange; cursor: pointer;">Shop For Home</strong>
+
+        <img src="assets/img/app logo.png" routerLink="/header" routerLinkActive="active" class="rounded-circle" alt="logo" style="width: 65px;height:65px;margin-right:10px;margin-top: 15px;">
+
+        <strong style="font-size: 40px; color:yellow; cursor: pointer; margin-top: 10px;">Shop For Home</strong>
   
         <div class="formgroup">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" placeholder="Search" style="width:290px;margin-top: 22px;">
           <span style="margin-right: 10px;"></span>
         </div>
       </div>
   
       <button class="btn btn-primary">Admin</button>
-      <button style="float: right;" class="btn btn-success">Login</button>
-      <button style="float: right;" class="btn btn-danger">Log out</button>
+      
       
       <button class="btn btn-primary" style="float:left">cart</button>
+
       <button class="btn btn-primary">wishlist</button>
+
+      <button style="float: right;" class="btn btn-success">
+        <a href="#" routerLink="/login" routerLinkActive="active" class="text-white"> Login </a>
+      </button>
+      
+      <button style="float: right;" class="btn btn-danger">Log out</button>
       
     </div>
-  </header>     
+  </header>
